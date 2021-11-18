@@ -1,0 +1,142 @@
+/* body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    border: 5px solid yellowgreen;
+    margin: 20px;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container div{
+    min-height: 40px;
+    text-align: center;
+}
+
+.home{
+    background-color: red;
+    font-size: 3rem;
+}
+
+.search{
+    background-color: green;
+    font-size: 3rem;
+
+}
+
+.logout{
+    background-color: blue;
+    font-size: 3rem;
+
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: aliceblue;
+}
+
+.container1{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 65%;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+img{
+    max-width: 60%;
+}
+
+.container{
+    max-width: 65%;
+    margin: auto;
+}
+main{
+    display: flex;
+}
+
+article{
+    max-width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article h1{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+article p{
+    font-size: 1.2rem;
+
+}
+
+aside{
+    flex-wrap: 0;
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+aside ul{
+    padding: 20px;
+}
+aside ul li{
+    list-style-type: square;
+    padding: 10px;
+}
+
+@media (max-width:512px) {
+    main{
+        flex-direction: column;
+    }
+    main article{
+        margin: 0;
+        max-width: 100%;
+    }
+    main article p{
+        font-size: 12px;
+    }
+    main article img{
+        max-width: 100%;
+    
+        
+    }
+    main aside{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+footer{
+    background-color: aliceblue;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
